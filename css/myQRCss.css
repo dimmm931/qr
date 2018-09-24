@@ -1,0 +1,231 @@
+#myFormZ{
+	margin:4%;
+  }
+
+
+/* Div for generated QR results */
+ #qrResult{
+	 margin-left:4%;
+ }
+
+ 
+ /*  ----------------Mobile */
+@media screen and (max-width: 460px) {   
+ 
+   /* to avoid overlapping screen in mobile*/
+   #qrResult{
+	 margin-left:0%;
+ }	
+}
+/* --------------END  Mobile */
+
+
+
+
+
+
+/*INJECT for  QR SCAN LIBRARY */
+/*canvas foe qr scan results*/
+#qr-canvas{
+    display:none;
+	
+	
+}
+
+
+/* style for my created class for decoded qr text , in webqr.js !!!!!!!!*/
+.qr-result{
+	font-size:2em;
+	padding: 10px;
+	/* margin-top:10px;*/
+	background: grey;
+	border-radius:12px;
+	
+	
+}
+
+
+
+  /* Break long words not to overlap*/
+ #qrCode, .qr-result{
+	 word-wrap: break-word;
+ } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+/* --------- OLD ---------------*/
+
+/*  ----------------Mobile */
+
+@media screen and (max-width: 460px) {   
+ 
+    .header_p {
+	    font-size: 44px;	
+	}
+	
+	.bt-mobile-mine {
+		margin-bottom: 7px;
+		
+	}
+	
+	textarea { font-size: px; }
+
+}
+/* --------------END  Mobile */
+
+
+
+
+
+.footer {
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef; /* #2ba6cb; */
+  text-align: center;
+  
+}
+
+
+
+
+
+/* Hide div 2, div 3 by default */
+#randIntegerDiv, #randIntegListDiv {
+	display: none;
+}
+
+.span-small {
+	color:red;
+	font-size: 0.7em;
+}
+
+
+.red {
+	color:red;
+}
+
+.badgeMine {
+	font-size: 3em;
+}
+
+/* Results div, more more flexible, without it the long result text overlaps the div, and overlaps footer as well */
+#resultFinal  {
+	display:inline-block;
+	width:88%;
+	
+}
+
+
+
+.gradientR {
+background: rgba(177,219,237,1);
+background: -moz-linear-gradient(left, rgba(177,219,237,1) 0%, rgba(37,184,228,1) 50%, rgba(186,223,238,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(177,219,237,1)), color-stop(50%, rgba(37,184,228,1)), color-stop(100%, rgba(186,223,238,1)));
+background: -webkit-linear-gradient(left, rgba(177,219,237,1) 0%, rgba(37,184,228,1) 50%, rgba(186,223,238,1) 100%);
+background: -o-linear-gradient(left, rgba(177,219,237,1) 0%, rgba(37,184,228,1) 50%, rgba(186,223,238,1) 100%);
+background: -ms-linear-gradient(left, rgba(177,219,237,1) 0%, rgba(37,184,228,1) 50%, rgba(186,223,238,1) 100%);
+background: linear-gradient(to right, rgba(177,219,237,1) 0%, rgba(37,184,228,1) 50%, rgba(186,223,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1dbed', endColorstr='#badfee', GradientType=1 );
+
+}
+
+ /*  Language Selection at top right */
+.language {
+	position: absolute;
+	right: 1em;
+	top:0.2em;
+	cursor:pointer;
+}
+
+.language :hover {
+	color:white;
+}
+
+
+/* Ads CSS -------------------------------------*/
+.ads {
+	position: absolute;
+	top:0.1em;
+	left: 0.1em;
+	width:20%;
+	
+}
+
+.ads img {
+	width:95%;
+	border-radius:12px;
+}
+
+@media screen and (max-width: 460px) {   
+  .ads img {
+	 border-radius:4px;
+  }
+	 
+}
+/* --------------END  Mobile */
+
+/* END Ads CSS --------------------------------- */
+
+
+
+
+.my-background{
+	color:white;
+	background-color:lavender;padding:10px;
+	background-image: url('../images/bg-pattern.png');
+	text-shadow: 1px 1px 2px black, 0 0 1em red; /* Параметры тени */
+	
+	
+  /* descripe the animation behaviour */
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+     transition: all 1.5s ease;
+}
+
